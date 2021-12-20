@@ -1,0 +1,60 @@
+.nft-card {
+    max-width: 375px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 1em;
+    border-radius: 1em;
+
+    color: #fff;
+
+    > .image-box {
+        border-radius: .5em;
+        overflow: hidden;
+        > .image {
+            max-width: 100%;
+        }
+
+        > .image-box > .image:hover {
+            background-color: hsl(178, 100%, 50%);
+        }
+    }
+
+    > .content-box {
+        margin: 1em 0;
+
+        > .description {
+            color: hsl(215, 51%, 70%);
+        }
+
+        > .info-box {
+            display :flex;
+            justify-content: space-between;
+            border-bottom: 1px solid hsl(215,51%, 70%);
+            padding-bottom: 1em;
+
+            > .eth {
+                color: hsl(178, 100%, 50%);
+            }
+    
+            > .deadline {
+                color: hsl(215, 51%, 70%);
+            }
+        }
+
+        > .footer {
+            padding-top: .8em;
+            display: flex;
+            align-items: center;
+            > .avatar {
+                width: 30px;
+            }
+
+            > .info {
+                margin-bottom: 0;
+            }
+
+            .avatar + .info {
+                margin-left: 1em;    
+            }
+        }
+    }
+}

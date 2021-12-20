@@ -1,0 +1,80 @@
+body {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #0d192b;
+}
+
+.wrapper {
+  max-width: 1440px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.nft-card {
+  max-width: 375px;
+  background-color: #14253d;
+  padding: 1em;
+  border-radius: 1em;
+  color: #fff;
+}
+.nft-card > .image-box {
+  border-radius: 0.5em;
+  overflow: hidden;
+}
+.nft-card > .image-box > .image {
+  max-width: 100%;
+}
+.nft-card > .image-box > .image-box > .image:hover {
+  background-color: #00fff7;
+}
+.nft-card > .content-box {
+  margin: 1em 0;
+}
+.nft-card > .content-box > .description {
+  color: #8bacda;
+}
+.nft-card > .content-box > .info-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #8bacda;
+  padding-bottom: 1em;
+}
+.nft-card > .content-box > .info-box > .eth {
+  color: #00fff7;
+}
+.nft-card > .content-box > .info-box > .deadline {
+  color: #8bacda;
+}
+.nft-card > .content-box > .footer {
+  padding-top: 0.8em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.nft-card > .content-box > .footer > .avatar {
+  width: 30px;
+}
+.nft-card > .content-box > .footer > .info {
+  margin-bottom: 0;
+}
+.nft-card > .content-box > .footer .avatar + .info {
+  margin-left: 1em;
+}
